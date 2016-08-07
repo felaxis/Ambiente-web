@@ -15,9 +15,7 @@ body,html {
 	line-height:1.3em;
 	text-align:left;
 }
-header {
 
-}
 
 ul, li {
 	list-style:none;
@@ -92,17 +90,17 @@ main {
 }
 
 
-#accordion .item {
+#submenu-acordeao .item {
     width: 202px;
-    height: 30px; /* height = total height of A child element */
+    height: 100px; /* height = total height of A child element */
     overflow: hidden;
     
-    transition: height ease-in-out 500ms; /* css3 transition */
+    transition: height ease-in-out 500ms;
     -o-transition: height ease-in-out 500ms;
     -moz-transition: height ease-in-out 500ms;
     -webkit-transition: height ease-in-out 500ms;
 }
-#accordion a {
+#submenu-acordeao a {
     display: block;
     width: 141px;
     height: 62px;
@@ -112,18 +110,18 @@ main {
     color: #1e1e1e;
     text-decoration: none;
 }
-#accordion img {
+#submenu-acordeao img {
 	width: 100%;
 }
-#accordion p {
+#submenu-acordeao p {
 	text-align: center;
     height: 150px;
     padding: 5px;
 }
-#accordion div:hover {
-    height: 180px; /* height = total height of A and P elements */
+#submenu-acordeao div:hover {
+    height: 180px;
 }
-#accordion div:hover a {
+#submenu-acordeao div:hover a {
     border-bottom: 1px solid #ccc;
     font-weight: bold;
 }
@@ -132,7 +130,7 @@ main {
 
 
 .menu-hom{
-	background: #e26962 url(../images/bg-homologacao.jpg) repeat-x;
+	background: rgb(247,149,38);
 	text-shadow: 1px 1px 1px #c93e36;
 }
 
