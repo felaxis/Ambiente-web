@@ -16,7 +16,12 @@ body,html {
 	text-align:left;
 }
 
-
+header {
+	width: 1260px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0;
+}
 ul, li {
 	list-style:none;
 }
@@ -29,40 +34,32 @@ main {
 	position:relative;
 	margin:0;
 	padding:0;
-	width:960px;
+	width:1260px;
+	height: 200px;
 	margin:0 auto;
 }
 
 .topo {
 	position:relative;
 	width:100%;
-	height:88px;
+	height:65px;
 }
+header img {
+	width: 30%;
+	margin: 1em;
 
-#logo-digitho{
-	margin:18px 0 0 20px;	
 }
 
 .conteudo{
 	margin:-35px 0 0 177px;
 }
 
-.shadow-topo{
-	position:absolute;]
-	top:0;
-	left:50%;
-	width:885px;
-	height:2px;
-	margin-left:-425px;
-	margin-top:89px;
-	background:url("../images/shadow-topo.png") no-repeat ;
 
-}
 
 
 .colunas{
 	float:left;
-	width:205px;
+	width:305px;
 	background: url("../images/bg-textura.jpg") repeat;	
 	margin-left:11px;
 	padding-bottom:20px;
@@ -73,7 +70,7 @@ main {
 	}
 
 .descricao-do-menu{
-	width:165px;
+
 	height:21px;
 	border-radius:5px 5px 0 0;
 	text-align:center;
